@@ -10,6 +10,9 @@ import App041 from './04/App041';   // component 화
 import App042 from './04/App042';   // 데이터 상태, 렌더링
 import App061 from './06/App061';   // useState 상태값 관리
 import App062 from './06/App062';   // useState (배열) 상태값 관리
+import App071 from './07/App071';   // userEffect
+import App081 from './08/App081';   // useMemo
+import App091 from './09/App091';   // useRef
 
 
 import reportWebVitals from './reportWebVitals';
@@ -18,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   {/* <React.StrictMode> */}
-    <App062/>
+    <App091/>
   {/* </React.StrictMode> */}
   </>
 );
