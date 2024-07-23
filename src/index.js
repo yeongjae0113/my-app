@@ -26,7 +26,8 @@ import App152 from './152/App152';   // 간단 게시판. 'single page'
 import App153 from './153/App153';   // UPDATE, DELETE 기능 구현
 import App201 from './20/App201';    // <select>
 import App181 from './181/App181';   // 하위 component 로 전달하는 방식 & 문제점 고찰
-import App182 from './182/App182';   // 
+import App182 from './182/App182';   // Redux
+import BookApp from './book-client/BookApp';  // book-server 스프링 연동
 
 import reportWebVitals from './reportWebVitals';
 
@@ -34,7 +35,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   {/* <React.StrictMode> */}
-    <App182/>
+    <BookApp/>
   {/* </React.StrictMode> */}
   </>
 );
