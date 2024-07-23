@@ -18,7 +18,7 @@ const App032 = () => {
         <div style={{color: "blue"}}>안녕하세요 css</div>   {/* object 타입 */}
         <div style={mystyle}>안녕하세요 !!!</div>
         {/* className  <--- JSX 에서 class 지정 구문 */}
-        <div className="box-style">외부 CSS 파일 적용</div>
+        <div className="box-style" STYLE>외부 CSS 파일 적용</div>
         </>
     );
 };

@@ -7,11 +7,11 @@ function App042() {
         <>
             <div>{list.map(n => (<h4>{n}</h4>))}</div>
             <div>{list.map(n => (<h4>n</h4>))}</div>
-            <div>{list}</div>
-            <div>{list.map(n => n)}</div>
         </>
     );
-
+    
 }
 
 export default App042;
+{/* <div>{list}</div> */}
+{/* <div>{list.map(n => n)}</div> */}

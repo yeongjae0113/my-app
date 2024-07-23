@@ -11,12 +11,14 @@
 //    https://ko.legacy.reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx
 // JSX 안에선 if문 사용 불가!  삼항연산자는 가능!
 
+// ↓ 전역 변수
 let a = 10;
 const b = 20;
+
 // 화면 렌더링 할 때 아래 함수가 호출된다.
 const App031 = () => {
     console.log("App031() 호출됨😁");
-    let c = 30;
+    let c = 30;     // 지역 변수
     console.log(`c=${c}`);
 
     return (    // 괄호로 감쌀 경우 return 바로 다음에 시작 괄호 붙이기

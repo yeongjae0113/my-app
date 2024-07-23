@@ -5,6 +5,8 @@ function Beta() {
     return (
         <>
         <div>Beta</div>
+        <hr/>
+        <div>Ahaaaaaaaaaaa</div>
         </>
     );
 
